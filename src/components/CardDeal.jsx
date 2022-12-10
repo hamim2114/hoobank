@@ -5,10 +5,10 @@ import {Button} from './Button'
 export const CardDeal = () =>  (
     <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div>
-          <h2 className={styles.heading2}>
+          <h2 data-aos='slide-left' className={styles.heading2}>
           Find a better card deal <br className="sm:block hidden" /> in few easy
           </h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          <p data-aos='slide-up' className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
         aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
           </p>

@@ -11,6 +11,11 @@ import { Testimonials } from "./components/Testimonials";
 import styles from "./style";
 import a from '../src/assets/people01.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
